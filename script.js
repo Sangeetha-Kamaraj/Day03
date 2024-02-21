@@ -16,10 +16,8 @@ request.onload=function(){
     }
     else{console.log("Invalid Capital")}
 }
-
 //Qus 2: Display all the countries flag
 //Qus 3: Display all the country name,region,subregion,population
-
 for(i=0;i<res.length;i++){
 
     console.log(res[i].flag+ " "+res[i].name.common+" "+res[i].population+" "+res[i].region+" "+res[i].subregion)
